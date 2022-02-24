@@ -194,7 +194,7 @@ IAM Policies are separated from the other entities above because they are not an
 
 - The root account with complete admin access is the account used to sign up for AWS. Therefore, the email address used to create the AWS account for use should probably be the official company email address.
 
-- New users have no permissions when their accounts are first created. This is a secure way of delegating access as permissions must be intentionally granted.
+- New users have no permissions when their accounts are first created. This is a secure way of delegating access as permissions must be intentionally granted - Least Privilage Policy.
 
 - When joining the AWS ecosystem for the first time, new users are supplied an access key ID and a secret access key ID when you grant them programmatic access. These are created just once specifically for the new user to join, so if they are lost simply generate a new access key ID and a new secret access key ID. Access keys are only used for the AWS CLI and SDK so you cannot use them to access the console.
 
